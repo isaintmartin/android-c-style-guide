@@ -25,7 +25,7 @@ Instrument i =
 ```
 
 * There should be exactly one blank line between methods to aid in visual clarity and organization.
-* Braces do not go on their own line; they go on the same line as the code before them.
+* Braces do not go on their own line, they go on the same line as the code before them.
 
 **For example:**
 
@@ -160,20 +160,18 @@ public class MyClass {
 }
 ```
 ###Activities and Fragments
-* Java class: Description of the activity and the world *Activity* 
-* Layout: activity_login.xml
-
+* Java class: Description of the activity and the word *Activity* 
+* Layout: The word *Activity* followed by underscore and the description of the activity
+* The same criteria is used for Fragments
+* General layouts: The word *layout* followed by underscore and the description of the layout
+* Drawables: Always define with the prefix *dw*
 
 **For example:**
 
 ```
-NameActivity.java 
+LoginActivity.java 
+activity_login.xml
+layout_list_item_asset.xml
+dw_rounded_button_blue.xml
 ```
 
--> LoginActivity.java
-Layout: activity_**.xml -> activity_login.xml
-**Fragment.java -> AssetFragment.java
-Layout: fragment_**.xml -> fragment_asset.xml
-(Si fuera un ListFragment)
-**ListFragment.java -> AssetsListFragment.java
-Layout: fragment_list_**.xml -> fragment_list_assets.xml
